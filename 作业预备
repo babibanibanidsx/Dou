@@ -1,0 +1,8 @@
+git clone https://github.com/babibanibanidsx/Dou.git
+cd Dou
+echo"<!DOCTYPE html><html><head><title>我的网页</title><link rel="stylesheet" ytpe="text/css" href="styles.css"></head><body>你好，世界！</body></html>" > index.html
+echo"body { background-color: #f8f8f8; color: #333; font-family: Arial, sans-serif; }"> style.css
+git add index.html styles.css
+git add .
+git commit -m"添加了文件"
+git push origin main
